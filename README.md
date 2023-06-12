@@ -18,4 +18,5 @@ Here are some ideas to get you started:
 #  HELLO. I'm BEONGJUN.
 
 I'm major in **Computer Science**.
-I'm learning Unity to make games like [Eternal Retern](https://playeternalreturn.com/ko/).
+I'm learning Spring, Spirng Boot, and React.
+
