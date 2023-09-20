@@ -8,6 +8,19 @@
 
 ## Project
 
+**Motipull**
+- *April 2023 - June 2023*
+- *Backend Developer*
+- Responsible for developing APIs for HTTP communication using JPA with Spring Boot.
+- **Technologies Used**: Java, Spring Boot, MySql
+
+**Project-beacon**
+- *February 2023 -*
+- *Full Stack Developer*
+- Responsible for developing APIs for HTTP communication using flask with python.
+- Developed the front-end using the JavaScript with React.
+- **Technologies Used**: Python, Flask, MySQL, JavaScript, React
+
 **EveryTown**
 - *December 2022 - February 2023*
 - *Team Leader & Full Stack Developer*
