@@ -20,6 +20,7 @@
 - Responsible for developing APIs for HTTP communication using flask with python.
 - Developed the front-end using the JavaScript with React.
 - **Technologies Used**: Python, Flask, MySQL, JavaScript, React
+- Worked part-time as a back-end developer at a related organization for a month.
 
 **EveryTown**
 - *December 2022 - February 2023*
