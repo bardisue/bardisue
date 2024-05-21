@@ -3,19 +3,13 @@
 ## Skills
 
 - **Backend**: Java, Spring Boot, Node.js, MySQL
-- **Frontend**: JavaScript, Node.js
+- **Frontend**: Vue3, JavaScript, Node.js
 - **DevOps**: Docker, Naver Cloud Platform (NCP)
 
 ## Project
 
-**Motipull**
-- *April 2023 - June 2023*
-- *Backend Developer*
-- Responsible for developing APIs for HTTP communication using JPA with Spring Boot.
-- **Technologies Used**: Java, Spring Boot, MySql
-
 **Project-beacon**
-- *February 2023 -*
+- *February 2023 - December 2023*
 - *Full Stack Developer*
 - Responsible for developing APIs for HTTP communication using flask with python.
 - Developed the front-end using the JavaScript with React.
