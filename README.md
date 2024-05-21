@@ -6,6 +6,8 @@
 - **Frontend**: Vue3, JavaScript, Node.js
 - **DevOps**: Docker, Naver Cloud Platform (NCP)
 
+  [![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=tr0568)](https://solved.ac/tr0568/)
+
 ## Project
 
 **Project-beacon**
