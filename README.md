@@ -37,6 +37,7 @@
 - Configured a reverse proxy using Nginx.
 - Built the architecture using Docker and Docker Compose and deployed it on the cloud.
 - **Technologies Used**: Java, Spring Boot, MySQL, JavaScript, Phaser3, Node.js, Docker, NCP (Naver Cloud Platform)
+- [Link](https://github.com/bardisue/Everytown-1)
 
 **GYM RADER**
 - *September 2021 - December 2021*
