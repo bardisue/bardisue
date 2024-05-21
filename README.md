@@ -39,6 +39,10 @@
 
 ## Education
 
+**Samsung sofware Academy for youth**
+- *February 2024 -*
+- *Bachelor's Degree in Computer Engineering*
+
 **Chungnam National University**
 - *March 2016 - February 2024*
 - *Bachelor's Degree in Computer Engineering*
