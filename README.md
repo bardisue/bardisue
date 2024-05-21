@@ -10,6 +10,14 @@
 
 ## Project
 
+**InspiTrip**
+- *May 2024 - May 2024*
+- *Team Leader & Full Stack Developer*
+- Responsible for developing APIs for HTTP communication using Springboot.
+- Developed the front-end using the Vue3.
+- Used Kakao Map API
+- **Technologies Used**: Springboot, Vue3, redis, docker, MySQL
+
 **Project-beacon**
 - *February 2023 - December 2023*
 - *Full Stack Developer*
