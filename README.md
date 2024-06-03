@@ -17,6 +17,7 @@
 - Developed the front-end using the Vue3.
 - Used Kakao Map API
 - **Technologies Used**: Springboot, Vue3, redis, docker, MySQL
+- [Link]https://github.com/bardisue/InspiTrip
 
 **Project-beacon**
 - *February 2023 - December 2023*
