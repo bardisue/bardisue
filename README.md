@@ -1,47 +1,107 @@
 ### Hi there 👋 I'm Beongjun
 
-## 소개 / About Me
-컴퓨터 공학을 전공한 저는 SW 아카데미에서 체계적인 백엔드 교육을 받았습니다. 스프링부트, JPA, REST API 설계, 데이터베이스 관리 등 다양한 기술을 익혔고, 팀 프로젝트를 통해 협업 능력과 문제 해결력을 향상시켰습니다. 또한, Docker 기반 컨테이너 시스템 구축을 경험하며 클라우드 환경에서의 서비스 배포 및 관리 기술을 학습했습니다.
+## 소개
+- 컴퓨터 공학을 전공한 저는 SW 아카데미에서 체계적인 백엔드 교육을 받았습니다. 이를 통해 스프링부트, JPA, REST API 설계, 데이터베이스 관리 등 백엔드 개발에 필요한 다양한 기술을 익히게 되었습니다. 또한 팀 프로젝트를 통해 협업 능력과 문제 해결력을 향상시킬 수 있었습니다.
+- 최근에는 클라우드 환경에서의 서비스 배포와 관리 기술을 학습하며, Docker 기반 컨테이너 시스템 구축 경험도 쌓았습니다. 이를 통해 안정적이고 효율적인 서비스 제공을 위한 기술적 역량을 갖추기 위해 학습중입니다.
 
-## 기술 스택 / Skill Set
-- **Environment**: EC2, Linux, Windows
-- **Tooling / DevOps**: Docker (Docker File, Docker Compose)
-- **Server**: MySQL (MariaDB), Redis
-- **Framework / Library**: Spring Boot (JPA, ORM, JWT), FastAPI, Socket.io, Phaser3, Vue3, React
-- **Programming Languages**: Java, Python, JavaScript
+## 기술 스택
 
+| 구분 | 기술 |
+| --- | --- |
+| 환경 | EC2, Linux, Windows |
+| DevOps 도구 | Docker (Dockerfile, Docker Compose) |
+| 서버 | MySQL (MariaDB), Redis |
+| 프레임워크 및 라이브러리 | Spring Boot (JPA, ORM, JWT), FastAPI, Socket.io, Phaser3, Vue3, React |
+| 프로그래밍 언어 | Java, Python, JavaScript |
+
+
+## 문제 해결
   [![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=tr0568)](https://solved.ac/tr0568/)
 
 
-## Project
-
+---
 
 ## 프로젝트 경험
 
 ### 1. 전동킥보드 위반 자동 적발 서비스
-- **주요 업무**: EC2 기반 Docker 환경 구성, Blue-Green 무중단 배포, HAProxy 로드밸런싱, Yolo 서버 구축
-- **사용 기술**: EC2, Docker, aiohttp, HAProxy, Nginx, Express
-- **프로젝트 설명**: 전동킥보드의 2인 탑승, 헬멧 미착용 등을 CCTV로 자동 적발하는 시스템.
+**프로젝트 기간**: 2024.08.26 ~  
+**인력 구성**: BE 2명, FE 2명, AI 1명, 인프라 1명  
+**사용 기술**: EC2, Docker, Aiohttp, HAProxy, Nginx, Express, Python
 
-### 2. AI와 함께하는 온라인 브레인스토밍 서비스
-- **주요 업무**: 백엔드 REST API 설계, DB 설계, EC2 기반 Docker 컨테이너 환경 구축, OpenVidu 영상 회의 서비스 구축
-- **사용 기술**: Java, Spring Boot, FastAPI, EC2, Docker, Redis, MariaDB
-- **프로젝트 설명**: GPT 기반 생성형 AI가 회의에 참가해 의견을 제시하는 서비스.
+- **주요 업무 및 역할**
+  - EC2 기반 도커 컨테이너 환경 구성
+  - Blue-Green 무중단 배포 구현
+  - HAProxy를 이용한 Node.js 이미지 서버 로드밸런싱
+  - 파이썬 기반 WebSocket을 이용한 YOLO 서버 구축
+
+- **느낀 점**
+  - **무중단 배포 전략의 중요성**: Blue-Green 배포 방식을 적용하여 서비스 운영 중단 없이 안정적으로 새로운 기능을 배포할 수 있었습니다. 이를 통해 무중단 배포의 중요성을 깊이 이해하게 되었습니다.
+  - **로드밸런싱의 필요성 체감**: HAProxy를 통해 서버 부하 분산의 중요성을 체감하고, 시스템의 안정성과 성능 최적화의 필요성을 배웠습니다.
+
+---
+
+### 2. AI와 함께하는 온라인 브레인 스토밍 서비스
+**프로젝트 기간**: 2024.07.02 ~ 2024.08.16  
+**인력 구성**: BE 4명, FE 2명  
+**사용 기술**: Java, Spring Boot, FastAPI, EC2, Docker, Redis, MariaDB
+
+- **주요 업무 및 역할**
+  - 백엔드 REST API 설계 및 DB 설계
+  - EC2 기반 도커 컨테이너 환경 구성
+  - OpenVidu 기반 영상 회의 서비스 구축
+
+- **느낀 점**
+  - **데이터베이스 선택의 중요성**: 실시간 회의 환경에서 휘발성 데이터를 Redis로 처리하여 성능을 향상시킬 수 있었습니다.
+  - **동시성 문제 해결**: 소켓 통신을 통해 발생하는 동시성 문제를 경험하고 해결하며 실무에 적용할 수 있는 방법을 배웠습니다.
+  - **생성형 AI의 활용**: OpenAI API를 활용해 비동기 처리를 구현하며 생성형 AI의 응답 속도와 정확도 최적화 방법을 학습했습니다.
+
+---
 
 ### 3. 인플루언서가 방문한 관광지, 맛집을 찾아주는 서비스
-- **주요 업무**: 백엔드 REST API 설계, DB 설계, Vue3 프론트엔드 제작, KAKAO MAP 기반 지도 서비스 구성
-- **사용 기술**: Java, Spring Boot, Node.js, Docker, Redis, MySQL, MyBatis
-- **프로젝트 설명**: 인플루언서들이 방문한 장소를 확인할 수 있는 서비스.
+**프로젝트 기간**: 2024.05.12 ~ 2024.05.23  
+**인력 구성**: 풀스택 2명  
+**사용 기술**: Java, Spring Boot, Node.js, Docker, Redis, MySQL, MyBatis
+
+- **주요 업무 및 역할**
+  - 백엔드 REST API 설계 및 DB 설계
+  - Vue3를 이용한 프론트엔드 제작
+  - KAKAO MAP 기반 지도 서비스 구성
+  - Redis를 이용한 랭킹 시스템 설계
+
+- **느낀 점**
+  - **라이브러리 선택의 중요성**: 프론트엔드에서 라이브러리 선택의 중요성을 체감하고, 적절한 라이브러리 선택이 프로젝트 성능에 미치는 영향을 배웠습니다.
+  - **협업의 중요성**: 명확한 역할 분담을 통해 협업 효율성을 높이는 방법을 경험했습니다.
+
+---
 
 ### 4. GNN 기반 항로표지 예지보전 및 시각화 서비스
-- **주요 업무**: Flask 기반 REST API 설계, DB 설계, 대시보드 UI 설계
-- **사용 기술**: React, Flask, Python
-- **프로젝트 설명**: 항로표지 모니터링 시스템의 개선 프로젝트.
+**프로젝트 기간**: 2023.07 ~ 2023.09  
+**인력 구성**: 풀스택 2명, 인프라 1명, AI 1명  
+**사용 기술**: React, Flask, Python
+
+- **주요 업무 및 역할**
+  - Flask 기반 REST API 설계 및 DB 설계
+  - 기기 모니터링을 위한 대시보드 설계
+
+- **느낀 점**
+  - **현실 도메인에 맞는 DB 설계**: 도메인 특성에 맞는 효율적인 DB 구조 설계의 중요성을 배웠습니다.
+  - **UI/UX 설계**: 클라이언트 요구에 맞춘 직관적인 대시보드 UI 설계 경험을 통해 사용자 경험의 중요성을 깨달았습니다.
+
+---
 
 ### 5. 대학교 온라인 2D 메타버스 프로젝트 EveryTown
-- **주요 업무**: Spring Boot 기반 REST API 설계, DB 설계, Express 이미지 서버 구성
-- **사용 기술**: Spring Boot, JPA, Node.js, Phaser3
-- **프로젝트 설명**: 신입생들이 대학교를 온라인에서 체험할 수 있는 메타버스 프로젝트.
+**프로젝트 기간**: 2022.12 ~ 2024.02  
+**인력 구성**: BE 2명, FE 1명, 풀스택 1명  
+**사용 기술**: Spring Boot, JPA, Node.js, Phaser3
+
+- **주요 업무 및 역할**
+  - Spring Boot 기반 REST API 설계 및 DB 설계
+  - Express를 이용한 이미지 서버 구성
+  - Phaser3 프레임워크를 이용한 웹페이지 구성
+
+- **느낀 점**
+  - **기술 스택 선정의 중요성**: 적절한 기술 스택 선택이 프로젝트의 효율성과 성능에 미치는 영향을 체감했습니다.
+  - **이미지 파일 서버 관리**: 파일 이름 중복 문제를 해결하고, 데이터베이스와의 연동성을 고려한 시스템 설계의 중요성을 배웠습니다.
   
 ## 학습 이력
 
